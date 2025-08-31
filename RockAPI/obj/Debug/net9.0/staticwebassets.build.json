@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "PD/0rVfBjUaBsropKOaZeebrqsilAvpxJlUBrHGmM2Q=",
+  "Source": "RockAPI",
+  "BasePath": "_content/RockAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

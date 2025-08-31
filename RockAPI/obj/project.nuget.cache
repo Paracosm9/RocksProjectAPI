@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "SVPFnQ9S90Y=",
+  "success": true,
+  "projectFilePath": "/home/lemni/Projects/RocksProjectAPI/RockAPI/RockAPI/RockAPI.csproj",
+  "expectedPackageFiles": [
+    "/home/lemni/.nuget/packages/dapper/2.1.66/dapper.2.1.66.nupkg.sha512",
+    "/home/lemni/.nuget/packages/microsoft.aspnetcore.openapi/9.0.2/microsoft.aspnetcore.openapi.9.0.2.nupkg.sha512",
+    "/home/lemni/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.2/microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "/home/lemni/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.2/microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "/home/lemni/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512",
+    "/home/lemni/.nuget/packages/npgsql/9.0.3/npgsql.9.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
