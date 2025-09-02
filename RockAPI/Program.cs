@@ -69,7 +69,6 @@ app.MapPost(
         return Results.Ok("Mineral was successfully updated.");
     }).WithName("UpdateMineralssss").WithOpenApi();
 
-
 /*
  * Delete in DB
  */
@@ -79,6 +78,21 @@ app.MapGet(
         rocksService.DeleteMineral(id);
         return Results.Ok("Mineral was successfully deleted");
     }).WithName("DeleteMineralById").WithOpenApi();
+
+
+//TODO - Determine how to make same pattern - getMinerals and getMinerals?QUERY_STRING and how to make program to differ them. 
+
+app.MapGet(
+    "/getMineralsF", async (HttpRequest request, RocksService rocksService) =>
+    {
+        var result = await rocksService.GetFilteredMinerals(request);
+        return result is null ? Results.Problem("Field names are incorrect.") : Results.Ok(result);
+    }).WithName("GetGilteredMinerals").WithOpenApi();
+
+
 app.Run();
+
+
+
 
 

@@ -17,9 +17,9 @@ public class RocksService(IRocksRepo repository)
 		return _repository.GetMineralById(id);
 	}
 
-	public Task<List<Mineral>> GetFilteredMinerals(Dictionary<string, string> query)
+	public Task<List<Mineral>> GetFilteredMinerals(HttpRequest request)
 	{
-		return _repository.GetFilteredMinerals(query);
+		return _repository.GetFilteredMinerals(new QueryStringProcessor(request));
 	}
 	
 	public void DeleteMineral(int id)

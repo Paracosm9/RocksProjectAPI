@@ -19,7 +19,12 @@ public class TestsForDB : IRocksRepo
 		throw new NotImplementedException();
 	}
 
-	public Task<List<Mineral>> GetFilteredMinerals(Dictionary<string, string> query)
+	public Task<List<Mineral>> GetFilteredMinerals(string query)
+	{
+		throw new NotImplementedException();
+	}
+
+	public Task<List<Mineral>> GetFilteredMinerals(QueryStringProcessor query)
 	{
 		throw new NotImplementedException();
 	}

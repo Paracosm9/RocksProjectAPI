@@ -33,3 +33,4 @@
 /home/lemni/Projects/RocksProjectAPI/RockAPI/RockAPI/obj/Debug/net9.0/ref/RockAPI.dll
 /home/lemni/Projects/RocksProjectAPI/RockAPI/RockAPI/bin/Debug/net9.0/Npgsql.dll
 /home/lemni/Projects/RocksProjectAPI/RockAPI/RockAPI/bin/Debug/net9.0/Dapper.dll
+/home/lemni/Projects/RocksProjectAPI/RockAPI/RockAPI/obj/Debug/net9.0/RockAPI.sourcelink.json

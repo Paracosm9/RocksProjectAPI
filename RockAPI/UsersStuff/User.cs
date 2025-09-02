@@ -1,6 +1,6 @@
-namespace RockAPI.Services;
+namespace RockAPI.UsersStuff;
 
-public class UserInput
+public class User
 {
 	public int Id { get; set; }
 	public string Username { get; set; }
@@ -9,14 +9,14 @@ public class UserInput
 	public string FirstName { get; set; }
 	public string LastName { get; set; }
 	public string Type { get; set; } //admin / default
-	public byte[] AvatarBytes { get; set; } //implement when I would be good with that convertation between byte[] and image.
+	public byte[] AvatarBytes { get; set; }
 
-	public UserInput()
+	public User()
 	{
 		
 	}
 
-	public UserInput(int id, string username, string password, string email, string firstName, string lastName, string type)
+	public User(int id, string username, string password, string email, string firstName, string lastName, string type)
 	{
 		Id = id;
 		Username = username;
